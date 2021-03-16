@@ -1,0 +1,86 @@
+	body{
+		transition: all 0.7s ease;
+		font-family: corbel;
+	}
+	header{
+		background: #398FD0;
+		position: absolute;
+		width: 100%;
+		top:0px;
+		left: 0px;
+		height: 120px;
+	}
+	.emit{
+		width: 100%;
+		height: 120px;
+	}
+	.settingsIm{
+		width: 60px;
+		margin-left: 32px;
+		margin-top: 30px;
+	}
+	.nav{
+		width: 80%;
+		position: fixed;
+		height: 100%;
+		left: -81%;
+		top: 0px;
+		transition: all 0.5s ease;
+		background: white;
+		z-index: 100;
+		border-right: 2px solid gray;
+	}
+	.s{
+		font-size: 55px;
+		margin-left: 70px;
+		margin-top: 40px;
+		transition: all 0.3s ease;
+		padding: 10px;
+	}
+	.s:hover{
+		margin-left: 100px;
+	}
+	.cross{
+		width: 8%;
+		margin-left: 85%;
+		position: relative;
+		right: 20px;
+		margin-top: 20px;
+		float: right;
+		filter: invert(10);
+	}
+	.acc{
+		width: 100%;
+		height: 400px;
+        background: #398FD0;
+	}
+	.accAva{
+		margin: 50px 0px 0px 50px;
+		width: 150px;
+		position: relative;
+		top: -70px;
+		border-radius: 170px;
+	}
+	.accLogin{
+		margin: 50px 0px 0px 50px;
+		font-size: 60px;
+		color: white;
+		position: relative;
+		top: -70px;
+	}
+	a{
+	    text-decoration: none;
+	    color: black;
+    }
+    #is{
+    	border-radius: 20px;
+    	background: #398FD0;
+    	color: white;
+    	padding: 10px  20px 10px 20px;
+    }
+    .exit{
+    	transition: all 0.5s ease;
+    	position: fixed;
+    	bottom: 30px;
+    	left: -200px;
+    }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shotcur icon" type="image/png" href="/logo.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/menu.css">
+	<link rel="stylesheet" type="text/css" href="/room.css">
+	<title><%=login%></title>
+</head>
+<body onload="load()">
+	<header>
+		<a href="/Users"><img src="/arrow2.png" class="cross"></a>
+
+		<div class="otherIm">
+			<img src="/user.png" class="otherAva">
+		</div>
+		<div class="other">
+			<div class="otherName">Name</div>
+			<div class="otherOnline">Online</div>
+		</div>
+	</header>
+	<div class="emit"></div>
+	<section class="messagesAll">
+		<div class="allMessages">
+	    </div>
+	</section>
+
+	<div class="write">
+		<input type="text" class="writeInp" placeholder="Message...">
+		<img src="/image.svg" class="writeAddImage" style="display: none">
+		<img src="/send.svg" class="writeSend">
+	</div>
+	
+<script src="/socket.io/socket.io.js"></script>
+<script src="/menu.js"></script>
+<script src="/room.js"></script></body>
+</html>

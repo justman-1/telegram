@@ -1,0 +1,66 @@
+.usersSect{
+	width: 94%;
+	padding: 20px;
+}
+.seacrhImg{
+	width: 80px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	filter: invert(1);
+}
+.user{
+	width: 100%;
+	height: 150px;
+}
+.userAva{
+	height: 100px;
+}
+.userLogin{
+	font-size: 35px;
+	position: relative;
+	font-weight: 1000;
+}
+.online{
+	font-size: 35px;
+	position: relative;
+	color: gray;
+}
+.Other{
+	width: 100%;
+	position: fixed;
+	right: -101%;
+	top: 0px;
+	transition: all 0.5s ease;
+}
+.addImage2{
+	width: 200px;
+	position: absolute;
+	top: -200px;
+	transition: all 0.5s ease;
+	float: right;
+	border-radius: 200px;
+	box-shadow: 5px 5px 10px black;
+}
+.emit2{
+	background: white
+}
+.searchUsers{
+	width: 0%;
+	height: 60px;
+	font-size: 40px;
+	margin-right: 50px;
+	margin-top: 30px;
+	float: right;
+	border-top: 0px solid black;
+	border-right: 0px solid black;
+	border-left: 0px solid black;
+	border-bottom: 5px solid white;
+	background: none;
+	color: white;
+	transition: all 1s ease;
+	opacity: 0;
+}
+.searchUsers:focus{
+	outline: none;
+}

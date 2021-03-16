@@ -1,0 +1,75 @@
+.text{
+	display: none;
+}
+.first{
+	background: #1EA0F6;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 15%;
+}
+.second{
+	background: #248BC6;
+	width: 100%;
+	top: 14.9%;
+	left: 0px;
+	position: absolute;
+	height: 25%;
+}
+.logo{
+	width: 10%;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+body{
+	font-size: 80pt;
+	background: #E3E3E3;
+	font-family: corbel;
+}
+.user{
+	position: absolute;
+	width: 70%;
+	padding: 30px;
+	border: 1px solid gray;
+	top: 34%;
+	font-size: 50px;
+	background: white;
+	color: black;
+	border-radius: 20px;
+	left: 15%;
+}
+.ava{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	float: left;
+}
+.ava2{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	float: left;
+	display: none;
+}
+.login{
+	float: left;
+	margin-top: 40px;
+	margin-left: 30px;
+	font-size: 60px;
+}
+.send{
+	width: 25%;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 37.5%;
+	border: 0px solid black;
+	border-radius: 20px;
+	padding: 20px;
+}
+.formSend{
+	width: 100%;
+	position: relative;
+}

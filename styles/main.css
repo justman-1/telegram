@@ -1,0 +1,206 @@
+.createChatPencil{
+	position: fixed;
+	width: 130px;
+	bottom: 20px;
+	right: 20px;
+	z-index: -1;
+}
+.room{
+	width: 100%;
+	height: 160px;
+}
+.roomAva{
+	margin: 20px 30px 0px 20px;
+	height: 120px;
+	width: 120px;
+	border-radius: 120px;
+	float: left;
+}
+.loginAndMess{
+	margin-top: 30px;
+	float: left;
+}
+.otherLogin{
+	font-size: 45px;
+	font-weight: 600;
+	color: black;
+}
+.otherMess{
+	color: gray;
+	font-size: 40px;
+	font-weight: 400;
+}
+.roomId{
+	display: none;
+}
+.roomSect{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 101%;
+	background: #E6EFF9;
+	overflow-y: scroll; 
+	transition: all 0.5s ease;
+}
+.roomHeader{
+	transition: all 0.5s ease;
+	left: 101%;
+	position: fixed;
+}
+.cross2{
+	width: 60px;
+	margin-top: 20px;
+	margin-left: 40px;
+	float: left;
+	transform: rotate(180deg);
+	filter: invert(1);
+}
+body{
+	background: #E6EFF9;
+	overflow-y: scroll;
+}
+header{
+	position: fixed
+}
+.otherIm{
+	height: 80px;
+	width: 80px;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 40px;
+	float: left;
+	border-radius: 80px
+}
+.otherAva{
+	height: 80px;
+}
+.other{
+	float: left;
+	margin-left: 20px;
+}
+.otherName{
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+}
+.otherOnline{
+	position: relative;
+	top: -10px;
+	font-size: 35px;
+	color: gray;
+}
+.write{
+	position: fixed;
+	width: 100%;
+	height: 130px;
+	bottom: 0px;
+	left: 0px;
+	background: white;
+	right: 0px;
+	left: 101%;
+    transition: all 0.5s ease;
+}
+.writeInp{
+	width: 70%;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	height: 70px;
+	border: 0px solid black;
+	color: black;
+	font-size: 50px;
+}
+input:focus{
+	outline: none;
+}
+.writeAddImage{
+	width: 80px;
+	opacity: 0.5;
+	margin-left: 150px;
+	margin-top: 20px;
+	position: absolute;
+	transition: 0.4s;
+	right: 30px;
+}
+.writeSend{
+	width: 80px;
+	opacity: 0.5;
+	margin-left: 150px;
+	margin-top: 20px;
+	position: absolute;
+	right: -350px;
+	transition: 0.4s;
+}
+.allMessages{
+	width: 100%;
+	margin-bottom: 15%;
+}
+.otherMessage{
+	width: 40%;
+	margin-left: 1%;
+	margin-top: 30px;
+	background: white;
+	padding: 20px;
+	border-radius: 20px;
+}
+.messageText{
+	font-size: 45px;
+	color: black;
+	overflow: hidden;
+}
+.messageDate{
+	font-size: 35px;
+	color: gray;
+	margin-right: 30px;
+}
+.myMessage{
+	width: 40%;
+	margin-left: 56%;
+	margin-top: 30px;
+	background: white;
+	padding: 20px;
+	border-radius: 20px;
+}
+.otherDay{
+	background: black;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+	width: 20%;
+	margin: 30px 40% 30px 40%;
+	font-size: 40px;
+	text-align: center;
+	opacity: 0.15;
+}
+.prePhotoes{
+	width: 100%;
+	height: 200px;
+	position: fixed;
+	bottom: -201px;
+	left: 0px;
+	background: white;
+    transition: all 0.5s ease;
+}
+.preImageBl{
+	margin: 25px;
+	float: left;
+}
+.preCrossBl{
+	height: 0px;
+	z-index: 2;
+	position: relative;
+	top: -160px;
+	left: -10px;
+}
+.preCross{
+	padding: 10px;
+	width: 20px;
+	border-radius: 50px;
+	background: white;
+	box-shadow: 0px 0px 10px black;
+}
+.preImage{
+	height: 150px;
+	z-index: -1;
+}

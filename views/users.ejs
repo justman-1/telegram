@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/users.css">
+	<link rel="shotcur icon" type="image/png" href="/logo.png">
+	<link rel="stylesheet" type="text/css" href="/me.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/menu.css">
+	<title>Users</title>
+</head>
+<body>
+	<header>
+	    <img src="/settings.png" class="settingsIm">
+        <img src="/search.svg" class="seacrhImg">   
+        <input type="text" class="searchUsers">
+    </header>
+    <div class="emit"></div>
+    <section class="nav">
+	    <div class="acc">
+		    <img src="/cross.svg" class="cross">
+		    <a href="/MyProfile"><img src="/user.png" class="accAva"></a>
+		    <div class="accLogin"><a href="/MyProfile" style="color: white" class="accLoginSp"></a></div>
+	    </div>
+	    <div class="messages s"><a href="/messages">Messages</a></div>
+	    <div class="myProfile s"><a href="/MyProfile">My profile</a></div>
+	    <div class="users s"><a id="is">Users</a></div>
+
+        <div class="exit"><a href="/" style="color: #398FD0; font-size: 55px;">Exit</a></div>
+    </section>
+
+    <section class="usersSect">
+    	
+    </section>
+  
+
+    <section class="Other">
+    	<header>
+    		<img src="/arrow2.png" class="arrow2">
+    	</header>
+    	<div class="mePhotoBl">
+    		<div class="mePhBl2">
+    			<img class="mePhoto" src="/user.png">
+    		</div>
+    	</div>
+        <form action="/writeToOther" method="post" class="sendImForm2" enctype="multipart/form-data">
+    	    <label class="imageSubmit">
+    		    <img src="/messages.png" class="addImage2">
+    		    <input type="submit" style="display: none">
+    	    </label>
+            <input type="text" name="other" style="display: none" class="name222" value="p">
+            <input type="text" name="login" value="p" class="sendMyName">
+        </form>
+    	<div class="emit2"></div>
+    	<div style="height: 120px"> 
+    		<div class="myName">Name</div>
+    		<ul>
+    		<div class="myOnline"><li>Online</li></div>
+    		</ul>
+    	</div>
+    	<div class="des">Description:</div>
+    	<div class="description">Here should be information about you</div>
+    </section>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/menu.js"></script>
+<script src="/users.js"></script></body>
+</html>

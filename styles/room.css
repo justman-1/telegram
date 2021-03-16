@@ -1,0 +1,125 @@
+body{
+	background: #E6EFF9;
+	overflow-y: scroll;
+}
+header{
+	position: fixed
+}
+.cross{
+	width: 60px;
+	margin-top: 20px;
+	margin-left: 40px;
+	float: left;
+	transform: rotate(180deg);
+}
+.otherIm{
+	height: 80px;
+	width: 80px;
+	overflow: hidden;
+	margin-top: 15px;
+	margin-left: 40px;
+	float: left;
+	border-radius: 80px
+}
+.otherAva{
+	height: 80px;
+}
+.other{
+	float: left;
+	margin-left: 20px;
+}
+.otherName{
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+}
+.otherOnline{
+	position: relative;
+	top: -10px;
+	font-size: 35px;
+	color: gray;
+}
+.write{
+	position: fixed;
+	width: 100%;
+	height: 130px;
+	bottom: 0px;
+	left: 0px;
+	background: white;
+	right: 0px;
+}
+.writeInp{
+	width: 70%;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	height: 70px;
+	border: 0px solid black;
+	color: black;
+	font-size: 50px;
+}
+input:focus{
+	outline: none;
+}
+.writeAddImage{
+	width: 80px;
+	opacity: 0.5;
+	margin-left: 150px;
+	margin-top: 20px;
+	position: absolute;
+	transition: 0.4s;
+	right: 30px;
+}
+.writeSend{
+	width: 80px;
+	opacity: 0.5;
+	margin-left: 150px;
+	margin-top: 20px;
+	position: absolute;
+	right: -350px;
+	transition: 0.4s;
+}
+.otherMessage{
+	width: 40%;
+	margin-left: 1%;
+	margin-top: 30px;
+	background: white;
+	padding: 20px;
+	border-radius: 20px;
+}
+.messageText{
+	font-size: 45px;
+	color: black;
+	overflow: hidden;
+}
+.messageDate{
+	font-size: 35px;
+	color: gray;
+	margin-right: 30px;
+}
+.myMessage{
+	width: 40%;
+	margin-left: 56%;
+	margin-top: 30px;
+	background: white;
+	padding: 20px;
+	border-radius: 20px;
+}
+.otherDay{
+	background: black;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+	width: 20%;
+	margin: 30px 40% 30px 40%;
+	font-size: 40px;
+	text-align: center;
+	opacity: 0.15;
+}
+.messagesAll{
+	width: 100%;
+	bottom: 150px;
+	position: relative;
+	overflow-y: scroll;
+	z-index: -1;
+}

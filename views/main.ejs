@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/main.css">
+	<link rel="shotcur icon" type="image/png" href="/logo.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/menu.css">
+	<title>Main</title>
+</head>
+<body>
+	<header>
+	    <img src="/settings.png" class="settingsIm">	
+    </header>
+    <div class="emit"></div>
+    <section class="nav">
+	    <div class="acc">
+		    <img src="/cross.svg" class="cross">
+		    <a href="/MyProfile"><img src="/user.png" class="accAva"></a>
+		    <div class="accLogin"><a href="/MyProfile" style="color: white" class="accLoginSp"></a></div>
+	    </div>
+	    <div class="messages s"><span id="is">Messages</span></div>
+	    <div class="myProfile s"><a href="/MyProfile">My profile</a></div>
+	    <div class="users s"><a href="/Users">Users</a></div>
+
+	    <div class="exit"><a href="/" style="color: #398FD0; font-size: 55px;">Exit</a></div>
+    </section>
+
+    <section class="allRooms">
+ 
+    </section>
+
+    <section class="roomSect">
+    	<header class="roomHeader">
+		<img src="/arrow2.png" class="cross2">
+
+		<div class="otherIm">
+			<img src="/user.png" class="otherAva">
+		</div>
+		<div class="other">
+			<div class="otherName">Name</div>
+			<div class="otherOnline">Online</div>
+		</div>
+	</header>
+	<div class="emit"></div>
+	<section class="allMessages">
+		<div class="allMessages2"></div>
+	</section>
+
+	<div class="write">
+		<input type="text" class="writeInp" placeholder="Message...">
+		<form style="float: right" enctype="multipart/form-data" class="sendPhotoForm" action="/preSendPhoto" method="post" style="display: none">
+			<label style="display: none">
+				<img src="/image.svg" class="writeAddImage">
+				<input type="file" name="image" style="display: none" class="photoFileSend">
+				<input type="text" style="display: none" value="" name="login" class="photoMeLogin">
+				<input type="text" style="display: none" name="date1" class="photoDate">
+				<input type="text"  style="display: none" name="other" class="photoOther">
+			</label>
+		</form>
+		<img src="/send.svg" class="writeSend">
+	</div>
+	<div class="prePhotoes">
+		
+	</div>
+    </section>
+
+
+    <img src="/pencil.png" class="createChatPencil">
+<script src="/socket.io/socket.io.js"></script>
+<script src="/menu.js"></script>
+<script src="/main.js"></script>
+</body>
+</html>

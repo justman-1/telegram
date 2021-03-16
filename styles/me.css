@@ -1,0 +1,217 @@
+.Me{
+	width: 100%;
+}
+input:focus{
+	outline: none;
+}
+body{
+	background: white;
+}
+.mePhotoBl{
+	width: 100%;
+	height: 1px;
+}
+.mePhoto{
+	width: 100%;
+}
+.mePhBl2{
+	width: 100%;
+	overflow: hidden;
+}
+.myName{
+	font-size: 90px;
+	float: left;
+	margin-left: 50px;
+}
+.myOnline{
+	margin-top: 10px;
+	font-size: 70px;
+	float: right;
+	margin-right: 50px;
+	color: #398FD0;
+}
+.addImage{
+	width: 200px;
+	position: relative;
+	top: -50px;
+	transition: all 0.5s ease;
+}
+.addImage:hover{
+	transform: scale(1.5);
+}
+.des{
+	margin-top: 40px;
+	margin-left: 100px;
+	font-size: 50px;
+	color: #398FD0;
+}
+.description{
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size: 54px;
+	color: black;
+}
+.pointsIm{
+	width: 60px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+	filter: invert(1);
+}
+.settingsP{
+	width: 400px;
+	background: white;
+	border-radius: 30px;
+	position: fixed;
+	right: 30px;
+	top: -550px;
+	transition: all 0.5s ease;
+}
+.settPart{
+	width: 100%;
+	padding: 20px 50px 20px 50px;
+	font-size: 45px;
+}
+.arrow1{
+	width: 80px;
+	margin-left: 160px;
+	transform: rotate(-90deg);
+}
+.editNameSect{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: white;
+	z-index: 10;
+	right: -105%;
+	transition: all 0.5s ease;
+}
+.arrow2{
+	width: 90px;
+	margin-left: 20px;
+	margin-top: 10px;
+	transform: rotate(180deg);
+	float: left;
+	filter: invert(1);
+}
+.bird1{
+	width: 90px;
+	margin-right: 20px;
+	margin-top: 20px;
+	float: right;
+	filter: invert(1);
+}
+.editNameInp{
+	width: 80%;
+	margin-top: 200px;
+	margin-left: 10%;
+	height: 70px;
+	font-size: 60px;
+	border-bottom: 3px solid gray;
+	border-top: 0px solid gray;
+	border-left: 0px solid gray;
+	border-right: 0px solid gray;
+}
+.editNameInp:focus{
+	border-bottom: 3px solid #398FD0;
+}
+.editDescSect{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: white;
+	z-index: 10;
+	right: -105%;
+	transition: all 0.5s ease;
+}
+.arrow3{
+	width: 90px;
+	margin-left: 20px;
+	margin-top: 10px;
+	transform: rotate(180deg);
+	float: left;
+	filter: invert(1);
+}
+.bird2{
+	width: 90px;
+	margin-right: 20px;
+	margin-top: 20px;
+	float: right;
+	filter: invert(1);
+}
+.editDescInp{
+	width: 80%;
+	margin-top: 200px;
+	margin-left: 10%;
+	height: 400px;
+	font-size: 45px;
+	border: 3px solid gray;
+	border-radius: 30px;
+	resize: none;
+	padding: 20px;
+}
+.editDescInp:focus{
+	border: 3px solid #398FD0;
+	outline: none;
+}
+.addPhotoSect{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: white;
+	z-index: 10;
+	right: -105%;
+	transition: all 0.5s ease;
+}
+.arrow4{
+	width: 90px;
+	margin-left: 20px;
+	margin-top: 10px;
+	transform: rotate(180deg);
+	float: left;
+	filter: invert(1);
+}
+.bird3{
+	width: 90px;
+	margin-right: 20px;
+	margin-top: 20px;
+	float: right;
+	filter: invert(1);
+}
+.addPhotoInp{
+	width: 80%;
+	margin-top: 200px;
+	margin-left: 10%;
+	height: 400px;
+	font-size: 45px;
+	border: 3px solid gray;
+	border-radius: 30px;
+	resize: none;
+	padding: 20px;
+}
+.imageSubmit{
+	cursor: pointer;
+}
+.imageSend{
+	opacity: 1;
+	display: block;
+}
+.changeImage{
+	position: fixed;
+	bottom: 100px;
+	width: 40%;
+	left: 30%;
+	height: 100px;
+	font-size: 60px;
+}
+.changeImage2{
+	position: fixed;
+	bottom: 100px;
+	width: 40%;
+	left: 30%;
+	height: 100px;
+	font-size: 60px;
+}

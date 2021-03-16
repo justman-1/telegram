@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/main.css">
+	<link rel="shotcur icon" type="image/png" href="/logo.png">
+	<link rel="stylesheet" type="text/css" href="/me.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/menu.css">
+	<title>Me</title>
+</head>
+<body>
+	<header>
+	    <img src="/settings.png" class="settingsIm">
+	    <img src="/points.png" class="pointsIm">	
+    </header>
+    <div class="emit"></div>
+    <section class="nav">
+	    <div class="acc">
+		    <img src="/cross.svg" class="cross">
+		    <a href="/MyProfile"><img src="/user.png" class="accAva"></a>
+		    <div class="accLogin"><a href="/MyProfile" style="color: white" class="accLoginSp"></a></div>
+	    </div>
+	    <div class="messages s"><a href="/messages">Messages</a></div>
+	    <div class="myProfile s"><span id="is">My profile</span></div>
+	    <div class="users s"><a href="/Users">Users</a></div>
+
+        <div class="exit"><a href="/" style="color: #398FD0; font-size: 55px;">Exit</a></div>
+    </section>
+
+    
+    <div class="settingsP">
+    	<div class="editName settPart">Edit name</div>
+        <form action="/changeImage" method="post" class="sendImForm" enctype="multipart/form-data">
+    	    <label class="imageSubmit">
+    	        <div class="setPhoto settPart">Set new photo</div>
+    	        <input type="file" name="image" value="Select your image"  style="visibility: hidden" class="imageSend">
+    	    </label>
+            <input type="text" name="login" style="display: none" class="name111" value="p">
+            <input type="text" name="password" style="display: none" class="pass111" value="p">
+        </form>
+    	<div class="delPhoto settPart">Delete photo</div>
+    	<div class="setDesc settPart">Set description</div>
+    	<img src="/arrow.png" class="arrow1">
+    </div>
+    <div class="editNameSect">
+    	<header>
+    		<img src="/arrow2.png" class="arrow2">
+    		<img src="/bird.png" class="bird1">
+    	</header>
+    	<input type="text" class="editNameInp">
+    </div>
+    <div class="editDescSect">
+    	<header>
+    		<img src="/arrow2.png" class="arrow3">
+    		<img src="/bird.png" class="bird2">
+    	</header>
+    	<textarea class="editDescInp"></textarea>
+    </div>
+    <div class="addPhotoSect">
+    	<header>
+    		<img src="/arrow2.png" class="arrow4">
+    	</header>
+    </div>
+
+    <section class="Me">
+        <form action="/changeImage" method="post" class="sendImForm2" enctype="multipart/form-data" style="height: 0px">
+    	    <label class="imageSubmit">
+    		    <img src="/image.png" class="addImage">
+    		    <input type="file" name="image"  style="visibility: hidden" class="imageSend2">
+    	    </label>
+            <input type="text" name="login" style="display: none" class="name222" value="p">
+            <input type="text" name="password" style="display: none" class="pass222" value="p">
+        </form>
+    	<div class="mePhotoBl">
+    		<div class="mePhBl2">
+    			<img class="mePhoto" src="/user.png">
+    		</div>
+    	</div>
+    	<div class="emit2"></div>
+    	<div style="height: 120px"> 
+    		<div class="myName">Name</div>
+    		<ul>
+    		<div class="myOnline"><li>Online</li></div>
+    		</ul>
+    	</div>
+    	<div class="des">Description:</div>
+    	<div class="description">Here should be information about you</div>
+    </section>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/menu.js"></script>
+<script src="/me.js"></script></body>
+</html>
